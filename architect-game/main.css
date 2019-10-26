@@ -1,0 +1,97 @@
+.container {
+	width: 1000px;
+	height: 100vh;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0 auto;
+	color: white;
+	align-content: center;
+
+	font-size: 24px;
+}
+
+.green {
+	background: green;
+}
+
+.cyan {
+	background: cyan;
+}
+
+.btn {
+	background: red;
+	padding: 30px 60px;
+	font-size: 30px;
+	text-decoration: none;
+	color: white;
+}
+.btn:hover {
+	background: blue;
+}
+
+
+/* ==================== stage 1============= */
+.container2 {
+	width: 1000px;
+	height: 100vh;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	margin: 0 auto;
+	color: white;
+	align-content: center;
+	flex-wrap: wrap;
+	font-size: 24px;
+}
+
+.instruction-container {
+	color: black;
+	background: white;
+	width: 100%;
+	margin: 15px 0;
+}
+
+.box {
+width: 40%;
+min-height: 200px;
+border: 1px solid black;
+}
+
+.square-container {
+	display: flex;
+	width: 90%;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+}
+
+.color:nth-child(1) {
+	background: red;
+}
+
+.color:nth-child(2) {
+	background: blue;
+}
+
+.color:nth-child(3) {
+	background: yellow;
+}
+
+.color:nth-child(4) {
+	background: green;
+}
+
+
+
+
+.scoreboard{
+	background: red;
+	width: 100%;
+	margin: 20px 0;
+}
